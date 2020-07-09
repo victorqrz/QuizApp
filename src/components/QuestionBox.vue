@@ -3,7 +3,7 @@
     <b-jumbotron>
 
       <template v-slot:lead>
-        Questions !
+        {{ currentQuestion.question }}
       </template>
 
       <hr class="my-4">
@@ -13,7 +13,9 @@
       </p>
 
       <b-button variant="primary" href="#">Submit</b-button>
-      <b-button variant="success" href="#">Next</b-button>
+      <b-button @click="next" variant="success" href="#">
+        Next
+      </b-button>
 
     </b-jumbotron>
   </div>
@@ -21,7 +23,15 @@
 
 <script>
 export default {
-
+  props: {
+    currentQuestion: {
+      type: Object,
+      required: true
+    },
+    next: {
+      type: Function
+    }
+  }
 }
 </script>
 

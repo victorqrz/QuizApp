@@ -1,5 +1,5 @@
 # quiz
-<img src="C:\Users\Marisa\Desktop\img2.png"/>
+Image description
 ## Project setup
 ```
 npm install

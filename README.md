@@ -1,5 +1,5 @@
 # quiz
-Image description
+![Quiz interface](../../img2.png)
 ## Project setup
 ```
 npm install

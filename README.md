@@ -1,5 +1,5 @@
 # quiz
-![Quiz interface](github.com/victorqrz/QuizApp/img2.png)
+![Quiz interface](../../QuizApp/img2.png)
 ## Project setup
 ```
 npm install
